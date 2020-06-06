@@ -1,0 +1,19 @@
+@import url("https://svechinskyy.github.io/roam-themes/cosmonaut.css");
+:root {
+  --color-primary: 255, 111, 0;
+  --color-primary-contrast: #ffffff;
+  --color-secondary: 191, 13, 211;
+  /*--color-secondary: 255, 165, 0;*/
+  --color-secondary-contrast: #ffffff;
+}
+
+.rm-saving-icon .rm-synced {
+  background-color: green;
+}
+.rm-saving-icon .rm-saving-remote {
+  background-color: orange;
+}
+
+.rm-page-ref-brackets {
+  display: none;
+}
