@@ -1463,14 +1463,9 @@ rect .basic .label-container {
   background-color: transparent !important;
 }
 .nodeLabel {
-  background-color: transparent !important;
   color: black !important;
 }
 
-foreignObject {
-  background: transparent !important;
-}
-
-.node > .label {
-  background-color: transparent !important;
+.node > .label, .node > .label > foreignObject, .node > .label > foreignObject > .nodeLabel {
+  background: #9370DB !important;
 }
