@@ -719,6 +719,18 @@ body > .bp3-portal .bp3-text-small {
     opacity: 0.6;
 }
 
+
+/* -------------------------- */
+/*      Mermaid Diagram       */
+/* -------------------------- */
+
+
+/* Fix mermaid diagrams background */
+div > span > div > svg > g> rect:first-child {
+    display: block !important;
+  }
+  
+
 /* -------------------------- */
 /*          DIAGRAM           */
 /* -------------------------- */
