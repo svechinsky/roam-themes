@@ -765,7 +765,7 @@ body > .bp3-portal .bp3-text-small {
 /* -------------------------- */
 
 .rm-block-text svg :not(.katex) {
-  background-color: var(--bg-color) !important;
+  background-color: var(--bg-color) ;
   border: none !important;
 }
 .bp3-button,
@@ -1261,7 +1261,7 @@ code {
 }
 
 .roam-center > div > div > div svg :not(.katex) {
-  background-color: var(--bg-color) !important;
+  background-color: var(--bg-color);
 }
 
 /* fix specific popover sizes and positions... */
