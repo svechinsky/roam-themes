@@ -720,15 +720,6 @@ body > .bp3-portal .bp3-text-small {
 }
 
 
-/* -------------------------- */
-/*      Mermaid Diagram       */
-/* -------------------------- */
-
-
-/* Fix svg diagrams in mermaid */
-rect[fill="honeydew"] {
-    display: block !important;
-  }
   
 
 /* -------------------------- */
@@ -1410,3 +1401,13 @@ code {
 .rm-find-or-create-wrapper .bp3-transition-container {
     transform: none !important;
 }
+
+/* -------------------------- */
+/*      Mermaid Diagram       */
+/* -------------------------- */
+
+
+/* Fix svg diagrams in mermaid */
+rect[fill="honeydew"] {
+    display: block !important;
+  }
