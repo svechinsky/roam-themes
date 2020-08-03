@@ -726,7 +726,7 @@ body > .bp3-portal .bp3-text-small {
 
 
 /* Fix svg diagrams in mermaid */
-div > span > div > svg > g> rect:first-child {
+rect[fill="honeydew"] {
     display: block !important;
   }
   
