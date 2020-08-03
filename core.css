@@ -765,7 +765,7 @@ body > .bp3-portal .bp3-text-small {
 /* -------------------------- */
 
 .rm-block-text svg :not(.katex) {
-  background-color: var(--bg-color) ;
+  background-color: var(--bg-color);
   border: none !important;
 }
 .bp3-button,
@@ -1469,4 +1469,8 @@ rect .basic .label-container {
 
 foreignObject {
   background: transparent !important;
+}
+
+.node > .label {
+  background-color: transparent !important;
 }
