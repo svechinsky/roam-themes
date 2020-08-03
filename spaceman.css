@@ -7,6 +7,11 @@
   --color-secondary-contrast: #ffffff;
 }
 
+/* Fix mermaid diagrams background */
+div > span > div > svg{
+  background: white;
+}
+
 .rm-saving-icon .rm-synced {
   background-color: green;
 }
