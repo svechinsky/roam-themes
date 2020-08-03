@@ -1465,7 +1465,18 @@ rect .basic .label-container {
 .nodeLabel {
   color: black !important;
 }
+.node > .label,
+.node > .label > foreignObject,
+.node > .label > foreignObject > .nodeLabel {
+  background: #9370db !important;
+}
 
-.node > .label, .node > .label > foreignObject, .node > .label > foreignObject > .nodeLabel {
-  background: #9370DB !important;
+.node > .label > foreignObject > div > .nodeLabel,
+.node > .label > foreignObject > div {
+  background: #ececff !important;
+}
+
+.cluster-label > foreignObject > div,
+.cluster-label > foreignObject > div > .nodeLabel {
+  background-color: transparent !important;
 }
